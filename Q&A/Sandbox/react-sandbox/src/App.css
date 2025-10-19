@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.my-button {
+  background-color: #61dafb; /* A nice React blue */
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.my-button:hover {
+  background-color: #21a1f2;
+  transform: translateY(-2px);
+}
+
+.my-button:active {
+  background-color: #1a8cd8;
+  transform: translateY(0);
+}
