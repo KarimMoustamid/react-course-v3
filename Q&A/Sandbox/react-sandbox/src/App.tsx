@@ -1,15 +1,15 @@
-import React from 'react'
-import './App.css'
-/*import Button from './components/ClassComponent/ClassComponentDemo'; */
-import ParentComponent from './components/ParentChildComunication';
+import React from "react";
+import "./App.css";
+import UseStateDemo from "./components/State/useState";
 
 class App extends React.Component {
   render() {
-     return (
-     /* <Button text="click me" /> */
-     <ParentComponent/>
-     ); 
+    return (
+      /* <Button text="click me" /> */
+      /* <ParentComponent /> */
+      <UseStateDemo />
+    );
   }
 }
 
-export default App
+export default App;
