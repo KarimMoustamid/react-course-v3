@@ -1,12 +1,10 @@
 import React from "react";
 import "./App.css";
-import UseEffectDemo from "./components/Effect/UseEffectDemo";
+import UseReducerDemo from "./components/Effect/UseReducerDemo";
 
 class App extends React.Component {
   render() {
-    return (
-      <UseEffectDemo />
-    );
+    return <UseReducerDemo />;
   }
 }
 
